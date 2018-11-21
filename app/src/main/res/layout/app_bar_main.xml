@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.oucho.radio2.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:elevation="2dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/colorAccent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/affichage_info"
+            android:background="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+
+            <org.oucho.radio2.view.AutoScrollableTextView
+                android:id="@+id/station"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal"
+                android:text="Radio"
+                android:textColor="@color/grey_800"
+                android:textSize="36sp"
+                android:typeface="normal"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/icon_equalizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_equalizer0"
+                android:layout_marginTop="71dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"/>
+
+            <TextView
+                android:id="@+id/bitrate"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="0kb/s"
+                android:textColor="@color/grey_600"
+                android:textSize="12sp"
+                android:typeface="normal"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="52dp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/etat"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:text="en attente"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:typeface="normal"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:layout_marginTop="77dp"
+                android:layout_centerHorizontal="true"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/sleep_timer"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/blue_900_transp"
+                android:text="00:00"
+                android:layout_marginTop="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="80dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/icon_volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/volume0"
+                android:layout_marginTop="71dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                tools:ignore="ContentDescription" />
+
+            <RelativeLayout
+                android:id="@+id/search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/home_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_list_grey_600_24dp"
+                    android:tint="@color/blue_900_transp" />
+
+                <EditText
+                    android:id="@+id/search_radio"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:hint="@string/search"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/grey_800"
+                    android:textColorHint="@color/grey_400"
+                    android:layout_toEndOf="@+id/home_button"
+                    android:layout_toStartOf="@+id/search_button"/>
+
+                <ImageButton
+                    android:id="@+id/search_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_search_grey_600_24dp"
+                    android:tint="@color/blue_900_transp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/activity_content" />
+
+
+</android.support.design.widget.CoordinatorLayout>

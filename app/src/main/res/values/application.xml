@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Radio</string>
+    <string name="app_full_name" translatable="false">Internet Radio for Android</string>
+
+    <string name="licence_info" translatable="false">
+        Ce logiciel est destiné à ma famille et mes amis uniquement.\n
+        Code source sur demande.\n
+        \n
+    </string>
+</resources>

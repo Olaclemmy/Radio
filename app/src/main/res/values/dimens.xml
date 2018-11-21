@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="dialogPadding">24dp</dimen>
+
+    <dimen name="playerBar">55dp</dimen>
+    <dimen name="affichage_info">102dp</dimen>
+
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="import_logo">120dp</dimen>
+    <dimen name="logo_full">120dp</dimen>
+    <dimen name="radio_logo">36dp</dimen>
+
+
+
+    <dimen name="fastscroll_bubble_size">70dp</dimen>
+    <dimen name="fastscroll_bubble_textsize">35sp</dimen>
+
+    <dimen name="fastscroll_handle_height">60dp</dimen>
+    <dimen name="fastscroll_handle_width">4dp</dimen>
+    <dimen name="fastscroll_handle_radius">2dp</dimen>
+
+    <dimen name="fastscroll_scrollbar_padding">6dp</dimen>
+
+    <dimen name="browser_img_size">50dp</dimen>
+
+    <dimen name="file_picker_img_size">25dp</dimen>
+
+</resources>

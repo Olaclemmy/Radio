@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FFAB00</color>
+
+    <color name="grey_900">#ff212121</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="blue_900_transp">#980d47a1</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_180">#b4ffffff</color>
+
+
+</resources>

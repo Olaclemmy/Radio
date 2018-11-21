@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="radio_name">Name der Station</string>
+
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+
+    <string name="deleteRadioConfirm">Diese Station löschen? \n\n</string>
+    <string name="addRadio">Station hinzufügen</string>
+    <string name="ok">OK</string>
+    <string name="errorInvalidURL">Ungültige URL</string>
+
+
+    <!-- nav header activity main -->
+
+    <string name="update">Aktualisierung</string>
+
+    <string name="about">Über</string>
+
+    <string name="exit">Exit</string>
+
+    <!-- Timer -->
+    <string name="start">Start</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="continuer">Fortfahren</string>
+    <string name="cancel_timer">Uhr abschalten</string>
+    <string name="impossible">0 impossible</string>
+
+
+    <!-- update -->
+
+    <string name="appupdater_btn_update">Herunterladen</string>
+
+    <!-- import/export DB -->
+    <string name="importer_erreur">Einlesen fehlerhaft</string>
+
+    <string name="exporter">Export erfolgreich</string>
+
+    <string name="importerMenu">Stationsliste einlesen</string>
+    <string name="exporterMenu">Stationsliste exportieren</string>
+
+    <!-- permission -->
+    <string name="permission">Erlaubnis-Anforderung</string>
+    <string name="permission_write_external_storage">Schreibzugriff auf externen Speicher</string>
+
+
+    <string name="add_logo">Tippen um ein Logo hinzuzufügen</string>
+    <string name="station_name">Stationsname</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">Laden...</string>
+    <string name="play">Play</string>
+    <string name="completed">Completed</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="action_music">Musik</string>
+
+    <string name="addRadio_fromApp">Radio %1$s hinzugefügt</string>
+    <string name="addRadio_error">Dieses Radio ist bereits registriert</string>
+    <string name="add_mpd">Senden an MPD Remote</string>
+    <string name="add_radio_browse">Reise</string>
+    <string name="add_radio_manual">Manuell hinzufügen</string>
+    <string name="addRadio_error_url">Die Adresse dieses Radios ist falsch</string>
+    <string name="error_connexion">Verbindungsproblem</string>
+    <string name="search">Suchen</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="internal_storage">Interne Speicher</string>
+    <string name="extrnal_storage">Externer Speicher</string>
+
+
+</resources>

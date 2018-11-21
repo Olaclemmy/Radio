@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="radio_name">Name of station</string>
+    <string name="url" translatable="false">URL</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="deleteRadioConfirm">Delete this station? \n\n</string>
+    <string name="addRadio">Add radio</string>
+    <string name="ok">OK</string>
+    <string name="errorInvalidURL">Invalid URL</string>
+
+    <string name="action_music">Music</string>
+
+    <string name="navigation_drawer_open" translatable="false">open</string>
+    <string name="navigation_drawer_close" translatable="false">close</string>
+
+    <!-- nav header activity main -->
+    <string name="by" translatable="false">Old Geek, 2018</string>
+
+    <string name="update">Update</string>
+
+    <string name="about">About</string>
+
+    <string name="exit">Exit</string>
+
+    <string name="add_logo">Touch to add a logo</string>
+
+
+    <!-- notification -->
+    <string name="station_name">Station name</string>
+
+
+    <string name="loading" tools:ignore="TypographyEllipsis">Loading...</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <string name="disconnected">Disconnected</string>
+    <string name="completed">Completed</string>
+
+    <!-- Timer -->
+    <string name="timer_info" formatted="false" translatable="false" tools:ignore="StringFormatInvalid">%02d:%02d</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="continuer">Continue</string>
+    <string name="cancel_timer">Cancel timer</string>
+    <string name="impossible">0 impossible</string>
+
+
+    <!-- update -->
+
+    <string name="appupdater_btn_update">Update</string>
+
+    <!-- import/export DB -->
+    <string name="importer_erreur">Import error</string>
+
+    <string name="exporter">Export successful</string>
+
+    <string name="importerMenu">Import station list</string>
+    <string name="exporterMenu">Export station list</string>
+
+    <!-- permission -->
+    <string name="permission">Permission request</string>
+    <string name="permission_write_external_storage">Permission to write external storage</string>
+
+
+    <string name="addRadio_fromApp">Radio %1$s added</string>
+    <string name="addRadio_error">This radio is already registered</string>
+    <string name="add_mpd">Send tot MPD Remote</string>
+    <string name="add_radio_browse">Browse</string>
+    <string name="add_radio_manual">Add manually</string>
+    <string name="addRadio_error_url">The address of this radio is incorrect</string>
+    <string name="error_connexion">Connection problem</string>
+    <string name="search">Search</string>
+
+    <string name="internal_storage">Internal Storage</string>
+    <string name="extrnal_storage">External Storage</string>
+
+
+
+    <string name="android_auto_update_dialog_title">New version</string>
+
+    <string name="android_auto_update_notify_ticker">New version, click for upgrade</string>
+
+    <string name="android_auto_update_dialog_btn_download">Download now</string>
+    <string name="android_auto_update_dialog_btn_cancel">Later</string>
+
+    <string name="android_auto_update_toast_no_new_update">Last version</string>
+
+    <string name="android_auto_update_download_progress">Download: %1$d%%</string>
+
+    <string name="android_auto_update_dialog_checking">Check version</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.oucho.radio2.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <RelativeLayout
+        android:id="@+id/content_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/playerBar">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/error_connexion"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/grey_800"
+            android:textAlignment="center"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/error1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Error"
+            android:textSize="16sp"
+            android:textColor="@color/grey_600"
+            android:textAlignment="center"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/playerBar"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:clipToPadding="false"
+        android:elevation="14dp">
+
+        <ImageButton
+            android:id="@+id/stop_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/play_radio"
+            android:layout_marginEnd="2dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_stop_amber_a700_48dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/play_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_play_circle_filled_amber_a700_48dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/pause_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="35dp"
+            android:layout_marginStart="35dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_pause_circle_filled_amber_a700_48dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/add_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/play_radio"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="center"
+            android:src="@drawable/ic_add_circle_grey_500_36dp"
+            android:tint="@color/blue_900_transp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="ContentDescription"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

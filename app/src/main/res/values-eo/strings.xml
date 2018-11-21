@@ -1,0 +1,69 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="radio_name">Nomo de radio</string>
+
+    <string name="edit">redakti</string>
+    <string name="delete">forigu</string>
+
+    <string name="deleteRadioConfirm">Forigu ĉi tiun radion? \n\n</string>
+    <string name="addRadio">Aldoni radioon</string>
+    <string name="ok">OK</string>
+    <string name="errorInvalidURL">Bonvolu enmeti validan adreson</string>
+
+    <string name="addRadio_fromApp">Radio %1$s aldonita</string>
+    <string name="addRadio_error">Ĉi tiu radio jam estas registrita</string>
+    <string name="addRadio_error_url">La adreso de ĉi tiu radio estas malĝusta</string>
+
+    <string name="add_mpd">Sendu al MPD Client</string>
+
+    <!-- nav header activity main -->
+
+    <string name="update">Ĝisdatigu</string>
+
+    <string name="about">Pri</string>
+
+    <string name="exit">Lasi</string>
+
+    <!-- Timer -->
+    <string name="start">komenco</string>
+    <string name="cancel">nuligi</string>
+    <string name="continuer">daŭrigi</string>
+    <string name="cancel_timer">ĝisnombrado</string>
+    <string name="impossible">0 neebla</string>
+
+    <!-- update -->
+
+    <string name="appupdater_btn_update">Elŝuti</string>
+
+    <!-- import/export DB -->
+    <string name="importer_erreur">Eraro: Malĝusta dosiero</string>
+
+    <string name="exporter">Lerta savis sukcese</string>
+
+    <string name="importerMenu">Importi radilan liston</string>
+    <string name="exporterMenu">Konservu la liston de radioaparatoj</string>
+
+    <!-- permission -->
+    <string name="permission">Petu permeson</string>
+    <string name="permission_write_external_storage">Ĉi tiu operacio postulas vian permeson por aliri la stokadon.</string>
+
+    <string name="add_logo">Tuŝu aldoni logoon</string>
+    <string name="station_name">Nomo de la radio-aŭskultado</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">ŝarĝo...</string>
+    <string name="play">Legado</string>
+    <string name="disconnected">Malkonektita</string>
+    <string name="completed">Kompletigita</string>
+    <string name="action_music">Muziko</string>
+
+    <string name="add_radio_browse">Foliumi la liston</string>
+    <string name="add_radio_manual">Aldonu permane</string>
+
+    <string name="error_connexion">Ligo problemo</string>
+
+    <string name="search">Serĉi</string>
+    <string name="pause">Paŭzo</string>
+    <string name="stop">Ĉesu</string>
+    <string name="extrnal_storage">Ekstera Stokado</string>
+    <string name="internal_storage">Interna Stokado</string>
+
+</resources>

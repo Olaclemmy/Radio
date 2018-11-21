@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="radio_name">Nom de la radio</string>
+
+    <string name="edit">éditer</string>
+    <string name="delete">supprimer</string>
+
+    <string name="deleteRadioConfirm">Supprimer cette radio ? \n\n</string>
+    <string name="addRadio">Ajouter une radio</string>
+    <string name="ok">OK</string>
+    <string name="errorInvalidURL">Veuillez entrer une adresse valide</string>
+
+
+    <string name="addRadio_fromApp">La radio %1$s ajoutée</string>
+    <string name="addRadio_error">Cette radio est déjà enregistrée</string>
+    <string name="addRadio_error_url">L\'adresse de cette radio est incorrect</string>
+
+    <string name="add_mpd">Envoyer vers MPD Client</string>
+
+
+    <!-- nav header activity main -->
+
+    <string name="update">Mise à jour</string>
+
+    <string name="about">A propos</string>
+
+    <string name="exit">Quitter</string>
+
+    <!-- Timer -->
+    <string name="start">démarrer</string>
+    <string name="cancel">annuler</string>
+    <string name="continuer">continuer</string>
+    <string name="cancel_timer">annuler le timer</string>
+    <string name="impossible">0 impossible</string>
+
+
+    <!-- update -->
+
+    <string name="appupdater_btn_update">Télécharger</string>
+
+    <!-- import/export DB -->
+    <string name="importer_erreur">Erreur: fichier incorrect</string>
+
+    <string name="exporter">Liste sauvegardé avec succès</string>
+
+    <string name="importerMenu">Importer une liste de radio</string>
+    <string name="exporterMenu">Sauvegarder la liste des radios</string>
+
+    <!-- permission -->
+    <string name="permission">Demande de permission</string>
+    <string name="permission_write_external_storage">Cette opération nécessite votre autorisation pour accéder à l\'espace de stockage.</string>
+
+
+    <string name="add_logo">Touchez pour ajouter un logo</string>
+    <string name="station_name">Nom de la radio à l\'écoute</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">Chargement...</string>
+    <string name="play">Lecture</string>
+    <string name="disconnected">Déconnecté</string>
+    <string name="completed">Complété</string>
+    <string name="action_music">Musique</string>
+
+    <string name="add_radio_browse">Parcourir la liste</string>
+    <string name="add_radio_manual">Ajouter manuellement</string>
+
+    <string name="error_connexion">Problème de connexion</string>
+
+    <string name="search">Chercher</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+
+    <string name="internal_storage">Stockage interne</string>
+    <string name="extrnal_storage">Stockage externe</string>
+
+
+    <!-- Auto update -->
+    <string name="android_auto_update_dialog_title">Nouvelle version</string>
+
+    <string name="android_auto_update_notify_ticker">Nouvelle version, cliquez pour mettre à niveau</string>
+
+    <string name="android_auto_update_dialog_btn_download">Télécharger maintenant</string>
+    <string name="android_auto_update_dialog_btn_cancel">Plus tard.</string>
+
+    <string name="android_auto_update_toast_no_new_update">Déjà la dernière version</string>
+
+    <string name="android_auto_update_download_progress">Téléchargement: %1$d%%</string>
+
+    <string name="android_auto_update_dialog_checking">Vérification de la version</string>
+</resources>

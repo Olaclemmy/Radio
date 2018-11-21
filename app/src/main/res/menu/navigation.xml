@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group
+        android:id="@+id/add_music"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music_note_black_24dp"
+            android:title="@string/action_music"/>
+
+        <item
+            android:id="@+id/nav_export"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="@string/exporterMenu"/>
+
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="@string/importerMenu"/>
+
+    </group>
+
+    <group android:id="@+id/haut_default">
+
+        <item
+            android:id="@+id/nav_export0"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="@string/exporterMenu"/>
+
+        <item
+            android:id="@+id/nav_import0"
+            android:icon="@drawable/ic_input_black_24dp"
+            android:title="@string/importerMenu"/>
+
+    </group>
+
+
+
+    <item
+        android:id="@+id/nav_update"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:title="@string/update" />
+
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_menu_help"
+        android:title="@string/about" />
+     <item
+         android:id="@+id/nav_exit"
+         android:icon="@drawable/ic_menu_exit"
+         android:title="@string/exit" />
+
+</menu>
