@@ -5,7 +5,8 @@
 
     <string name="licence_info" translatable="false">
         Ce logiciel est destiné à ma famille et mes amis uniquement.\n
-        Code source sur demande.\n
+        \n
+        Code source: https://github.com/Old-Geek/Radio\n
         \n
     </string>
 </resources>
