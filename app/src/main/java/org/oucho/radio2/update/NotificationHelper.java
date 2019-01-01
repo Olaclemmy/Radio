@@ -32,9 +32,6 @@ import android.support.v4.app.NotificationCompat;
 
 import org.oucho.radio2.R;
 
-import static org.oucho.radio2.radio.RadioKeys.APK_DOWNLOAD_URL;
-
-
 class NotificationHelper extends ContextWrapper {
 
     private NotificationManager manager;
